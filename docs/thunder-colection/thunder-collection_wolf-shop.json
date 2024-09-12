@@ -1,0 +1,120 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "wolf-shop",
+    "collectionId": "9289929c-d1c0-4a2d-94d3-57c2f5ad93e1",
+    "dateExported": "2024-09-12T05:40:48.282Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c8a59990-2470-4e64-9643-d11655a26760",
+            "colId": "9289929c-d1c0-4a2d-94d3-57c2f5ad93e1",
+            "containerId": "",
+            "name": "register",
+            "url": "{{host}}api/register",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2024-09-12T04:32:36.107Z",
+            "modified": "2024-09-12T04:33:43.703Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Phuoc Nguyen\",\n    \"email\": \"phuocndt@gmail.com\",\n    \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4625a046-9855-4be6-b38a-69be64863856",
+            "colId": "9289929c-d1c0-4a2d-94d3-57c2f5ad93e1",
+            "containerId": "",
+            "name": "login",
+            "url": "{{host}}api/login",
+            "method": "POST",
+            "sortNum": 7500,
+            "created": "2024-09-12T04:32:26.391Z",
+            "modified": "2024-09-12T04:33:47.046Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"phuocndt@gmail.com\",\n  \"password\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d1268d16-126a-420a-94c3-16ef4cc30fd5",
+            "colId": "9289929c-d1c0-4a2d-94d3-57c2f5ad93e1",
+            "containerId": "",
+            "name": "item",
+            "url": "{{host}}api/item",
+            "method": "POST",
+            "sortNum": 8750,
+            "created": "2024-09-12T04:32:05.016Z",
+            "modified": "2024-09-12T04:33:50.594Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"test\",\n  \"sellIn\": 1,\n  \"quality\": 1\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2372e61e-ab67-4ef9-9c17-1ac0f53001c1",
+            "colId": "9289929c-d1c0-4a2d-94d3-57c2f5ad93e1",
+            "containerId": "",
+            "name": "items",
+            "url": "{{host}}api/items",
+            "method": "GET",
+            "sortNum": 9375,
+            "created": "2024-09-12T04:32:17.133Z",
+            "modified": "2024-09-12T04:33:53.705Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "2|rkUtGC7sHmpWE64G5jIOABh6ZinGAnqbVSEPoUp5dfdb6d81"
+            }
+        },
+        {
+            "_id": "5312d510-db6b-4d5f-b4ac-6e1d70d3f911",
+            "colId": "9289929c-d1c0-4a2d-94d3-57c2f5ad93e1",
+            "containerId": "",
+            "name": "upload-image",
+            "url": "{{host}}api/upload-image",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-12T04:31:48.935Z",
+            "modified": "2024-09-12T04:33:56.600Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        }
+    ],
+    "ref": "mVC1bvI2K5hAspoP0tNOc5gGojqmRodVJ0bDjm4IdNrzO4wip4WjdVUUdwyopOdd5MPxhWM4-ae0ZbdSoELB9w"
+}

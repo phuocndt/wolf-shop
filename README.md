@@ -28,11 +28,14 @@
     - `php`: php:8.3.4-fpm-alpine3.19
     - `mysql`: mysql:5
     - `redis`: bitnami/redis:latest
-- Framework: Laravel 5
-- Unit testing: phpunit 9.3
+- Framework: Laravel 11.9
+- Unit testing: phpunit 11.0.1
+- Easy Coding Standard: 12.3
 
 ## Folders structure
 
+- `docs`
+    - `thunder-colection` - the API colection
 - `docker` - contains configuration for all docker images:
     - `mysql` - this folder has a configuration of MySQL container
     - `nginx` - this folder has a configuration of Nginx container
